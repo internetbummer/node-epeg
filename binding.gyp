@@ -11,7 +11,8 @@
         '-w'
       ],
       'libraries': [
-        '-ljpeg'
+        '-ljpeg',
+        '-lexif'
       ]
     }
   ]
