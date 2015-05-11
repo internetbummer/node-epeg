@@ -1,6 +1,6 @@
 {
   "name": "epeg",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Node bindings for the Epeg library",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/phorque/node-epeg.git"
+    "url": "git://github.com/internetbummer/node-epeg.git"
   },
   "devDependencies": {
     "mocha": "~1.12",
@@ -22,11 +22,11 @@
     "crop"
   ],
   "gypfile": true,
-  "author": "victor.goya@af83.com",
+  "author": "steven.w.carter@gmail.com",
   "license": "BSD",
   "readmeFilename": "README.md",
-  "gitHead": "5cdb43809420bc8fa661c62378ee169bd0fbe3fe",
+  "gitHead": "904d94e720e5b434c0269e80f5818f9e3aae62db",
   "bugs": {
-    "url": "https://github.com/phorque/node-epeg/issues"
+    "url": "https://github.com/internetbummer/node-epeg/issues"
   }
 }
