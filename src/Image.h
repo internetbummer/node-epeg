@@ -15,11 +15,11 @@ class Image: public node::ObjectWrap {
   static Persistent<FunctionTemplate> constructor;
   static void Initialize(Handle<Object>);
 
-  static Handle<Value> New(const Arguments &args);
-  static Handle<Value> Downsize(const Arguments &args);
-  static Handle<Value> Crop(const Arguments &args);
-  static Handle<Value> Process(const Arguments &args);
-  static Handle<Value> SaveTo(const Arguments &args);
+  static Handle<Value> New(const v8::internal::Arguments &args);
+  static Handle<Value> Downsize(const v8::internal::Arguments &args);
+  static Handle<Value> Crop(const v8::internal::Arguments &args);
+  static Handle<Value> Process(const v8::internal::Arguments &args);
+  static Handle<Value> SaveTo(const v8::internal::Arguments &args);
 
   static Handle<Value> GetWidth(Local<String> prop, const AccessorInfo &info);
   static Handle<Value> GetHeight(Local<String> prop, const AccessorInfo &info);
